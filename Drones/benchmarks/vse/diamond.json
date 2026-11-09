@@ -1,0 +1,99 @@
+{
+  "name": "diamond",
+  "n": 4,
+  "edges": [
+    [
+      0,
+      1,
+      "0"
+    ],
+    [
+      0,
+      2,
+      "1/6"
+    ],
+    [
+      1,
+      2,
+      "1/3"
+    ],
+    [
+      1,
+      3,
+      "1/6"
+    ],
+    [
+      2,
+      3,
+      "0"
+    ]
+  ],
+  "centers": [
+    [
+      0,
+      0
+    ],
+    [
+      2.4,
+      0
+    ],
+    [
+      1.2,
+      2.078460969082653
+    ],
+    [
+      3.6,
+      2.078460969082653
+    ]
+  ],
+  "metadata": {
+    "family": "two triangles sharing an edge",
+    "circle_radius": "1",
+    "communication_radius": "2/5",
+    "link_distance": "12/5",
+    "threshold": "inclusive",
+    "coordinate_encoding": "Each coordinate [a,b] represents a+b*sqrt(3)."
+  },
+  "exact_centers": [
+    [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "12/5",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    [
+      [
+        "6/5",
+        "0"
+      ],
+      [
+        "0",
+        "6/5"
+      ]
+    ],
+    [
+      [
+        "18/5",
+        "0"
+      ],
+      [
+        "0",
+        "6/5"
+      ]
+    ]
+  ]
+}

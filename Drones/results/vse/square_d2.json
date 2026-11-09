@@ -1,0 +1,347 @@
+{
+  "graph": "square",
+  "n": 4,
+  "edges": 4,
+  "Q": 4,
+  "fleet_size": 2,
+  "counts": {
+    "candidate_bound": 16,
+    "generated": 16,
+    "simulated": 8,
+    "collision_runs": 0,
+    "disconnected_orbits": 0,
+    "unknown_runs": 0,
+    "valid_connected_orbits": 8,
+    "complete": true,
+    "seconds": 0.0014152649964671582,
+    "visited_states": 64
+  },
+  "schedules": [
+    {
+      "state": [
+        0,
+        12
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        13
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        12
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        13
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        2,
+        22
+      ],
+      "assignments": [
+        [
+          0,
+          "1/4",
+          -1
+        ],
+        [
+          2,
+          "3/4",
+          -1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        2,
+        23
+      ],
+      "assignments": [
+        [
+          0,
+          "1/4",
+          -1
+        ],
+        [
+          2,
+          "3/4",
+          1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        22
+      ],
+      "assignments": [
+        [
+          0,
+          "1/4",
+          1
+        ],
+        [
+          2,
+          "3/4",
+          -1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        23
+      ],
+      "assignments": [
+        [
+          0,
+          "1/4",
+          1
+        ],
+        [
+          2,
+          "3/4",
+          1
+        ]
+      ],
+      "period_ticks": 8,
+      "shifts_per_period": 4,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    }
+  ],
+  "vse_counts": {
+    "valid": 8,
+    "opposite_only": 4,
+    "without_shifts": 0,
+    "incomplete_coverage": 0
+  }
+}

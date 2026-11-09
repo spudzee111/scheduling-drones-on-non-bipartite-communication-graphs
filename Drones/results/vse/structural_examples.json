@@ -1,0 +1,214 @@
+{
+  "penny": {
+    "lengths": [
+      "23/6",
+      "13/6"
+    ],
+    "gcd": "1/6",
+    "link_coordinates": [
+      {
+        "link": [
+          4,
+          6
+        ],
+        "z_A": "5/12",
+        "z_B": "2",
+        "c": 1
+      },
+      {
+        "link": [
+          1,
+          6
+        ],
+        "z_A": "5/4",
+        "z_B": "0",
+        "c": 1
+      },
+      {
+        "link": [
+          3,
+          4
+        ],
+        "z_A": "5/3",
+        "z_B": "17/12",
+        "c": -1
+      },
+      {
+        "link": [
+          2,
+          3
+        ],
+        "z_A": "29/12",
+        "z_B": "7/6",
+        "c": -1
+      },
+      {
+        "link": [
+          1,
+          5
+        ],
+        "z_A": "17/6",
+        "z_B": "5/12",
+        "c": 1
+      },
+      {
+        "link": [
+          2,
+          5
+        ],
+        "z_A": "11/3",
+        "z_B": "7/12",
+        "c": 1
+      }
+    ],
+    "safe_residues_equal": [],
+    "safe_residues_opposite": [],
+    "exact_geometry_verified": true
+  },
+  "family": [
+    {
+      "squares": 1,
+      "n": 4,
+      "rings": 2,
+      "period": 2,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 2,
+      "n": 8,
+      "rings": 3,
+      "period": 6,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 3,
+      "n": 12,
+      "rings": 4,
+      "period": 10,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 4,
+      "n": 16,
+      "rings": 5,
+      "period": 14,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 5,
+      "n": 20,
+      "rings": 6,
+      "period": 18,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 6,
+      "n": 24,
+      "rings": 7,
+      "period": 22,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 7,
+      "n": 28,
+      "rings": 8,
+      "period": 26,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 8,
+      "n": 32,
+      "rings": 9,
+      "period": 30,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 9,
+      "n": 36,
+      "rings": 10,
+      "period": 34,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 10,
+      "n": 40,
+      "rings": 11,
+      "period": 38,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 11,
+      "n": 44,
+      "rings": 12,
+      "period": 42,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 12,
+      "n": 48,
+      "rings": 13,
+      "period": 46,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 13,
+      "n": 52,
+      "rings": 14,
+      "period": 50,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 14,
+      "n": 56,
+      "rings": 15,
+      "period": 54,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 15,
+      "n": 60,
+      "rings": 16,
+      "period": 58,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    },
+    {
+      "squares": 16,
+      "n": 64,
+      "rings": 17,
+      "period": 62,
+      "coverage": true,
+      "collision_free": true,
+      "connected": true
+    }
+  ]
+}

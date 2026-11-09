@@ -1,0 +1,26 @@
+{
+  "graph": "triangle",
+  "n": 3,
+  "edges": 3,
+  "Q": 6,
+  "fleet_size": 2,
+  "counts": {
+    "candidate_bound": 12,
+    "generated": 12,
+    "simulated": 12,
+    "collision_runs": 12,
+    "disconnected_orbits": 0,
+    "unknown_runs": 0,
+    "valid_connected_orbits": 0,
+    "complete": true,
+    "seconds": 0.0007586280044051819,
+    "visited_states": 84
+  },
+  "schedules": [],
+  "vse_counts": {
+    "valid": 0,
+    "opposite_only": 0,
+    "without_shifts": 0,
+    "incomplete_coverage": 0
+  }
+}

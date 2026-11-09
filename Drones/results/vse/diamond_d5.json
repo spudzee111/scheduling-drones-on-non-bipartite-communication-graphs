@@ -1,0 +1,10691 @@
+{
+  "graph": "diamond",
+  "n": 4,
+  "edges": 5,
+  "Q": 6,
+  "fleet_size": 5,
+  "counts": {
+    "candidate_bound": 246400,
+    "generated": 246400,
+    "simulated": 210491,
+    "collision_runs": 210373,
+    "disconnected_orbits": 0,
+    "unknown_runs": 0,
+    "valid_connected_orbits": 118,
+    "complete": true,
+    "seconds": 10.689287936002074,
+    "visited_states": 509944
+  },
+  "schedules": [
+    {
+      "state": [
+        0,
+        2,
+        13,
+        19,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        13,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 100,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        15,
+        33,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          2,
+          "2/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 276,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        1,
+        2,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        17,
+        35,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          1
+        ],
+        [
+          2,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 276,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        2,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        19,
+        21,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "2/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        19,
+        23,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        19,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        19,
+        27,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        19,
+        29,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        19,
+        42,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        1,
+        4
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        23,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        25,
+        29,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          2,
+          "1/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 100,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        4,
+        8,
+        16,
+        19
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        8,
+        19,
+        23
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        8,
+        19,
+        27
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        8,
+        19,
+        39
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        8,
+        19,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        8,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        12,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        16,
+        19,
+        23
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        16,
+        19,
+        24
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        16,
+        19,
+        27
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        16,
+        19,
+        39
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        16,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        23,
+        24
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        23,
+        27
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        23,
+        31
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        23,
+        39
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        24,
+        27
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        27,
+        39
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        19,
+        42,
+        46
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 276,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        2,
+        1,
+        4
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        4,
+        20,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        24,
+        39,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        4,
+        24,
+        43,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        12,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        19,
+        23,
+        27
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        19,
+        23,
+        31
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        19,
+        23,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 122,
+      "sync_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        19,
+        27,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 610,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        20,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          1,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        8,
+        24,
+        43,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        12,
+        16,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 122,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        12,
+        20,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        12,
+        24,
+        32,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        12,
+        24,
+        43,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        13,
+        19,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        4
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        13,
+        19,
+        31,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          2,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        4
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        16,
+        19,
+        23,
+        27
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        16,
+        19,
+        23,
+        31
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        16,
+        20,
+        24,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 610,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        19,
+        23,
+        27,
+        31
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "1/6",
+          1
+        ],
+        [
+          2,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 630,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        0,
+        20,
+        24,
+        43,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        3,
+        12,
+        14,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        12,
+        32,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        14,
+        22,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 100,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        14,
+        26,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 100,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        14,
+        28,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "1/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        14,
+        32,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        14,
+        43,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        16,
+        34,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 276,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        2,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        18,
+        24,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 276,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        1,
+        2,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        20,
+        32,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "2/3",
+          -1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        22,
+        32,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        3,
+        28,
+        32,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          2,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        6,
+        0,
+        1
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        5,
+        9,
+        14,
+        18
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        9,
+        18,
+        22
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        9,
+        18,
+        34
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        9,
+        18,
+        38
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        9,
+        18,
+        46
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        14,
+        18,
+        22
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        14,
+        18,
+        26
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        14,
+        18,
+        34
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        14,
+        18,
+        38
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        14,
+        18,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        18,
+        22,
+        34
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        18,
+        22,
+        38
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        18,
+        22,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        18,
+        24,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 276,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        1,
+        2,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        5,
+        18,
+        34,
+        38
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        5,
+        18,
+        34,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        6,
+        14,
+        17,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        6,
+        14,
+        22,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        6,
+        14,
+        26,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        9,
+        14,
+        18,
+        22
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        9,
+        14,
+        18,
+        26
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        9,
+        14,
+        18,
+        46
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 610,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        9,
+        18,
+        22,
+        46
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 122,
+      "sync_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        10,
+        14,
+        22,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "5/6",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        10,
+        14,
+        26,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          0,
+          "5/6",
+          -1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        12,
+        16,
+        30,
+        34
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        2,
+        4
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        12,
+        16,
+        34,
+        43
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 300,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        2,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        1,
+        14,
+        18,
+        22,
+        26
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 630,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        14,
+        18,
+        22,
+        34
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        14,
+        18,
+        26,
+        34
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        1,
+        14,
+        22,
+        26,
+        45
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "5/6",
+          -1
+        ],
+        [
+          2,
+          "1/6",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 630,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        5,
+        9,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        5,
+        13,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        5,
+        18,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        5,
+        25,
+        29,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          2,
+          "1/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        5,
+        25,
+        34,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          2,
+          "5/6",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 610,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        5,
+        25,
+        42,
+        46
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        9,
+        13,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        9,
+        18,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        9,
+        25,
+        29,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          0,
+          "2/3",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          2,
+          "1/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        13,
+        18,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 360,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        13,
+        21,
+        25,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          1,
+          "2/3",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 630,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        2,
+        18,
+        25,
+        29,
+        42
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          2,
+          "1/3",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 240,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        7,
+        11,
+        15,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          1
+        ],
+        [
+          0,
+          "5/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        7,
+        15,
+        23,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        7,
+        15,
+        35,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          2,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        7,
+        15,
+        40,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "1/2",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "1/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        11,
+        15,
+        23,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "5/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        11,
+        15,
+        35,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "5/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          2,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 396,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        11,
+        15,
+        40,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          0,
+          "5/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          3,
+          "1/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 350,
+      "shifts_per_period": 660,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        15,
+        23,
+        35,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          2,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 70,
+      "shifts_per_period": 122,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        3,
+        15,
+        23,
+        40,
+        44
+      ],
+      "assignments": [
+        [
+          0,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "1/6",
+          1
+        ],
+        [
+          1,
+          "5/6",
+          1
+        ],
+        [
+          3,
+          "1/3",
+          -1
+        ],
+        [
+          3,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 140,
+      "shifts_per_period": 244,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        4,
+        12,
+        24,
+        43,
+        47
+      ],
+      "assignments": [
+        [
+          0,
+          "1/3",
+          -1
+        ],
+        [
+          1,
+          "0",
+          -1
+        ],
+        [
+          2,
+          "0",
+          -1
+        ],
+        [
+          3,
+          "1/2",
+          1
+        ],
+        [
+          3,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    },
+    {
+      "state": [
+        5,
+        13,
+        25,
+        42,
+        46
+      ],
+      "assignments": [
+        [
+          0,
+          "1/3",
+          1
+        ],
+        [
+          1,
+          "0",
+          1
+        ],
+        [
+          2,
+          "0",
+          1
+        ],
+        [
+          3,
+          "1/2",
+          -1
+        ],
+        [
+          3,
+          "5/6",
+          -1
+        ]
+      ],
+      "period_ticks": 210,
+      "shifts_per_period": 366,
+      "sync_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": true,
+      "first_same_orientation_encounter": null,
+      "covered_lengths": [
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": true
+    }
+  ],
+  "vse_counts": {
+    "valid": 118,
+    "opposite_only": 88,
+    "without_shifts": 0,
+    "incomplete_coverage": 0
+  }
+}

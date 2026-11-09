@@ -1,0 +1,157 @@
+{
+  "graph": "triangle",
+  "n": 3,
+  "edges": 3,
+  "Q": 6,
+  "fleet_size": 4,
+  "counts": {
+    "candidate_bound": 5760,
+    "generated": 5760,
+    "simulated": 5149,
+    "collision_runs": 5147,
+    "disconnected_orbits": 0,
+    "unknown_runs": 0,
+    "valid_connected_orbits": 2,
+    "complete": true,
+    "seconds": 0.2239774400004535,
+    "visited_states": 13959
+  },
+  "schedules": [
+    {
+      "state": [
+        0,
+        2,
+        17,
+        32
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/3",
+          1
+        ],
+        [
+          2,
+          "2/3",
+          -1
+        ]
+      ],
+      "period_ticks": 36,
+      "shifts_per_period": 24,
+      "sync_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        1,
+        3
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    },
+    {
+      "state": [
+        0,
+        2,
+        18,
+        35
+      ],
+      "assignments": [
+        [
+          0,
+          "0",
+          -1
+        ],
+        [
+          0,
+          "1/6",
+          -1
+        ],
+        [
+          1,
+          "1/2",
+          -1
+        ],
+        [
+          2,
+          "5/6",
+          1
+        ]
+      ],
+      "period_ticks": 36,
+      "shifts_per_period": 24,
+      "sync_pairs": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "full_coverage": true,
+      "missing_cells": [],
+      "opposite_only": false,
+      "first_same_orientation_encounter": [
+        0,
+        0,
+        2
+      ],
+      "covered_lengths": [
+        "1",
+        "1",
+        "1"
+      ],
+      "vse_valid": true,
+      "ovse_valid": false
+    }
+  ],
+  "vse_counts": {
+    "valid": 2,
+    "opposite_only": 0,
+    "without_shifts": 0,
+    "incomplete_coverage": 0
+  }
+}
